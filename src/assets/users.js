@@ -7,8 +7,10 @@ export const users = [
     "email": "sankar@gmail.com",
     "isAdmin": true,
     "twaats": [
-      { "id": 1, "content": "Twotter is Amazing!" },
-      { "id": 2, "content": "Don't forget to subscriber to The Earth is Square!" }
+      { "id": 1, "content": "Twatter is Amazing!" },
+      { "id": 2, "content": "Enjoy in TWATTER" },
+      { "id": 3, "content": "Use Twatter Forget Rest" },
+      { "id": 4, "content": "Welcome Twatter" }
     ]
   },
   {
@@ -18,24 +20,33 @@ export const users = [
     "lastName": "Karthik",
     "email": null,
     "isAdmin": false,
-    "twaats": []
+    "twaats": [
+      { "id": 1, "content": "Let's Play with TWATTER" },
+      { "id": 2, "content": "TWATTER twaat" }
+    ]
   },
   {
     "id": 3,
-    "username": "kurtisconner",
-    "firstName": "kurtis",
-    "lastName": "conner",
+    "username": "CSK",
+    "firstName": "Chennai",
+    "lastName": "Super Kings",
     "email": null,
     "isAdmin": false,
-    "twaats": []
+    "twaats": [
+      { "id": 1, "content": "Hello TWATTER" },
+      { "id": 2, "content": "SOCIAL HUB TWATTER" }
+    ]
   },
   {
     "id": 4,
-    "username": "boburnham",
-    "firstName": "Bo",
-    "lastName": "Burnham",
+    "username": "MSD",
+    "firstName": "Dhoni",
+    "lastName": "MS",
     "email": null,
     "isAdmin": false,
-    "twaats": []
+    "twaats": [
+      { "id": 1, "content": "KEEP CALM and BELIEVE in TWATTER" },
+      { "id": 2, "content": "DIVE in TWATTER" }
+    ]
   }
 ];

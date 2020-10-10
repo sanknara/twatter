@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <h1>HOME</h1>
+    <div class="users-label">USERS:</div>
     <div class="users-list">
       <router-link
         v-for="(user, index) in users"
@@ -29,9 +30,17 @@ export default {
 .home {
   padding: 50px 5%;
 
+  .users-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
   .users-list {
     display: flex;
     flex-direction: column;
+    color: dodgerblue;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
 }
 </style>
